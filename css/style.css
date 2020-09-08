@@ -11,18 +11,29 @@ html, body{
 a{
     text-decoration: none;
 }
+::-webkit-scrollbar {
+    width: 5px;
+    background: rgb(7, 61, 61);
+}
+::-webkit-scrollbar-thumb{
+    background-color: #00ffff;
+    cursor: pointer;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #19afaf;
+}
 
 nav{
     display: flex;
     align-items: center;
-    height: 8vh;
+    height: 50px;
     justify-content: space-around;overflow: hidden;
     overflow-x: hidden;
     background-color: rgb(7, 61, 61);
     transition: 2s;
 }
 .logo{
-    font-size: 5vh;
+    font-size: 40px;
     letter-spacing: 0.5em;
     font-weight: bolder;
     color: #00ffff;
@@ -32,14 +43,16 @@ nav{
     width: 30%;
     list-style: none;
     justify-content: space-between;
+    transition: 0.8s;
 }
 .link a{
     text-transform: uppercase;
-    font-size: 2.8vh;
+    font-size: 20px;
     color: #1bd3d3;
 }
 .lines{
     display: none;
+
 }
 @media screen and (max-width: 1200px) {
     .links {
@@ -48,28 +61,31 @@ nav{
 }
 
 @media screen and (max-width: 850px) {
-    #wraper{
-        position: absolute;
-        width: 100%;
-        position: fixed;
+    html, body{
+        overflow-x: hidden;
+    }
+    nav{
+        height: 50px;
     }
     .logo{
-        font-size: 4vh;
+        font-size: 1.5em;
     }
 
     .links {
         position: absolute;
+        overflow: hidden;
         right: 0px;
-        height: 92vh;
-        top: 8vh;
+        height: 90%;
+        top: 50px;
         background-color: rgb(7, 61, 61);
-        display: flex;
+        display: none;
         flex-direction: column;
         align-items: center;
+        text-align: center;
         justify-content: space-around;
         width: 50%;
         transform: translateX(100%);
-        transition: transform 0.5s ease-in;
+        transition: 0.8s;
     }
     .link{
         transition: 1s;
@@ -87,11 +103,13 @@ nav{
         width: 7vh;
         height: .4vh;
         margin: 1.6vh;
-        transition: 1s;
+        transition: 0.3s ease;
     }
 
 }
 .active{
+    transition: 0.8s;
+    display: flex;
     transform: translatex(0%);
 }
 @keyframes navLinkFade {
@@ -105,13 +123,13 @@ nav{
     }
 }
 .toggle .line1{
-    transition: 1s;
+    transition: 0.6s;
     transform: rotate(-45deg) translate(-10px, 10px);
 }
 .toggle .line2 {
     opacity: 0;
 }
 .toggle .line3{
-    transition: 1s;
+    transition: 0.6s;
     transform: rotate(45deg) translate(-10px, -10px)
 }
