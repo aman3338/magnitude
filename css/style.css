@@ -7,8 +7,6 @@ html, body{
     background: #0fadad;
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    overflow: hidden;
-    overflow-x: hidden;
 }
 a{
     text-decoration: none;
@@ -18,7 +16,8 @@ nav{
     display: flex;
     align-items: center;
     height: 8vh;
-    justify-content: space-around;
+    justify-content: space-around;overflow: hidden;
+    overflow-x: hidden;
     background-color: rgb(7, 61, 61);
     transition: 2s;
 }
@@ -49,8 +48,10 @@ nav{
 }
 
 @media screen and (max-width: 850px) {
-    body{
-        overflow-x: hidden;
+    #wraper{
+        position: absolute;
+        width: 100%;
+        position: fixed;
     }
     .logo{
         font-size: 4.5vh;
