@@ -1,8 +1,42 @@
 * {
     margin: 0;
-    border-spacing: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 html, body{
-    background-color: red;
-    color: blue;
+    background: #00ffff;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: darkcyan;
+}
+.logo{
+    font-size: 2.5em;
+    letter-spacing: 0.5em;
+    font-weight: bolder;
+    color: #00ffff;
+}
+.links{ 
+    display: flex;
+    width: 30%;
+    list-style: none;
+    justify-content: space-between;
+}
+.link a{
+    text-transform: uppercase;
+    font-size: 1.5em;
+    color: #00ffff;
+}
+@media only screen and (max-width: 700px) {
+    .links{
+        width: 40%;
+    }
 }
