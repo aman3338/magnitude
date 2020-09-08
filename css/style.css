@@ -35,7 +35,7 @@ nav{
 }
 .link a{
     text-transform: uppercase;
-    font-size: 3vh;
+    font-size: 2.8vh;
     color: #1bd3d3;
 }
 .lines{
@@ -54,7 +54,7 @@ nav{
         position: fixed;
     }
     .logo{
-        font-size: 4.5vh;
+        font-size: 4vh;
     }
 
     .links {
