@@ -1,0 +1,36 @@
+.banner{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color-burn;
+}
+.banner-heading{
+    color: rgb(195, 230, 189);
+    font-size: 5vh;
+    font-weight: bolder;
+}
+.banner-para{
+    color: rgb(204, 241, 197);
+    font-size: 4vh;
+}
+.banner-button{
+    display: block;
+    padding: 20px 30px;
+    border-radius: 10px;
+    margin: 20px 0px;
+    color: cyan;
+    background:rgba(14, 104, 44, 0.4);
+    font-size: 1.6em;
+    cursor: pointer;
+}
+.banner-button:hover{
+    border-radius: 10px;
+    background: rgba(255, 192, 203, 0.4);
+    color: rgb(230, 230, 230);
+}
