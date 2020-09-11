@@ -89,10 +89,7 @@
 .footer {
   background-color: rgb(36, 34, 34);
 }
-.footerContainer {
-  display: grid;
-  padding: 30px 100px;
-}
+
 .footerGrid {
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -106,6 +103,7 @@
 }
 .footerBlock > h2 {
   margin-bottom: 10px;
+  text-align: center;
   text-transform: capitalize;
 }
 .footerBlock > div {
@@ -129,7 +127,7 @@
   border-left: 2px dotted rgb(41, 161, 180);
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 400px) {
   .bannerHeading {
     font-size: 35px;
   }
@@ -160,16 +158,25 @@
     height: auto;
     width: auto;
   }
+  .footerContainer {
+    padding: 10px 10px;
+    margin: 0px;
+  }
   .footerGrid {
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;
     grid-row-gap: 20px;
     height: auto;
     width: auto;
+    padding: 10px;
   }
   .footerBlock {
+    text-align: center;
     border: none;
     height: auto;
     width: auto;
+  }
+  .footerBlock > h2 {
+    font-size: 20px;
   }
 }
