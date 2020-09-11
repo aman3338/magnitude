@@ -1,183 +1,189 @@
+/** @format */
+
 .bannerContainer {
-  display: flex;
-  flex-direction: column;
-  background-image: url("../img/banner.jpg");
-  background-size: cover;
-  height: 800px;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	flex-direction: column;
+	background-image: url('../img/banner.jpg');
+	background-size: cover;
+	height: 800px;
+	width: 100%;
+	align-items: center;
+	justify-content: center;
 }
 .bannerHeading {
-  font-size: 3em;
-  color: rgb(211, 216, 216);
-  font-weight: bolder;
+	font-size: 3em;
+	color: rgb(211, 216, 216);
+	font-weight: bolder;
 }
 .bannerPara {
-  font-size: 2em;
-  color: cyan;
-  font-weight: bold;
-  margin-bottom: 20px;
+	font-size: 2em;
+	color: cyan;
+	font-weight: bold;
+	margin-bottom: 20px;
 }
 .bannerButton {
-  display: block;
-  background-color: rgba(7, 61, 61);
-  border-radius: 10px;
-  height: auto;
-  width: auto;
-  padding: 20px 40px;
-  text-align: center;
-  font-size: 1.5em;
-  color: cyan;
+	display: block;
+	background-color: rgba(7, 61, 61);
+	border-radius: 10px;
+	height: auto;
+	width: auto;
+	padding: 20px 40px;
+	text-align: center;
+	font-size: 1.5em;
+	color: cyan;
 }
 .bannerButton:hover {
-  background-color: rgba(7, 61, 61, 0.4);
+	background-color: rgba(7, 61, 61, 0.4);
 }
 .journeyContainer {
-  display: grid;
-  grid-template-columns: auto auto;
-  padding: 100px 200px;
-  grid-column-gap: 30px;
+	display: grid;
+	grid-template-columns: auto auto;
+	padding: 100px 200px;
+	grid-column-gap: 30px;
 }
 .journeyImage > img {
-  height: 400px;
-  width: 400px;
-  border-radius: 10px;
-  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.505);
+	height: 400px;
+	width: 400px;
+	border-radius: 10px;
+	box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.505);
 }
 .journeyContent {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 400px;
-  width: 400px;
-  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.505);
-  margin-left: auto;
-  border-radius: 10px;
-  background-color: rgba(7, 61, 61);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 400px;
+	width: 400px;
+	box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.505);
+	margin-left: auto;
+	border-radius: 10px;
+	background-color: rgba(7, 61, 61);
 }
 .journeyHeading {
-  font-size: 2em;
-  font-weight: bolder;
-  color: rgb(211, 216, 216);
+	font-size: 2em;
+	font-weight: bolder;
+	color: rgb(211, 216, 216);
 }
 .verticalContainer {
-  display: grid;
-  height: auto;
-  width: 100%;
-  margin: 60px 0px;
-  grid-template-columns: auto auto auto;
-  grid-column-gap: 100px;
-  padding: 30px 200px;
+	display: grid;
+	height: auto;
+	width: 100%;
+	margin: 60px 0px;
+	grid-template-columns: auto auto auto;
+	grid-column-gap: 100px;
+	padding: 30px 200px;
 }
 .verticalBlock {
-  display: block;
-  margin: auto;
-  padding: 10px;
-  border: 2px solid black;
-  border-radius: 10px;
+	display: block;
+	margin: auto;
+	padding: 10px;
+	border: 2px solid black;
+	border-radius: 10px;
 }
 .verticalBlock > h2 {
-  text-align: center;
-  text-transform: uppercase;
-  margin-bottom: 20px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 20px;
 }
 .verticalBlock > p {
-  font-size: 20px;
+	font-size: 20px;
 }
 .footer {
-  padding-top: 20px;
-  background-color: rgb(36, 34, 34);
+	padding-top: 20px;
+	background-color: rgb(36, 34, 34);
 }
 
 .footerGrid {
-  display: grid;
-  grid-template-columns: auto auto auto auto;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
 }
 .footerBlock {
-  display: block;
-  margin: auto;
-  padding: 10px;
-  border-radius: 10px;
-  color: cyan;
+	display: block;
+	margin: auto;
+	padding: 10px;
+	border-radius: 10px;
+	color: cyan;
 }
 .footerBlock > h2 {
-  margin-bottom: 10px;
-  text-align: center;
-  text-transform: capitalize;
+	margin-bottom: 10px;
+	text-align: center;
+	text-transform: capitalize;
 }
 .footerBlock > div {
-  margin-bottom: 10px;
-  text-transform: capitalize;
+	margin-bottom: 10px;
+	text-transform: capitalize;
 }
 .socialLinks {
-  color: cyan;
-  text-align: center;
-  padding-bottom: 20px;
+	color: cyan;
+	text-align: center;
+	padding-bottom: 20px;
 }
 .fblock1 {
-  border-left: 4px solid rgb(41, 161, 180);
-  padding-left: 30px;
+	border-left: 4px solid rgb(41, 161, 180);
+	padding-left: 30px;
 }
 .fblock3 {
-  padding-right: 30px;
-  border-right: 4px solid rgb(41, 161, 180);
+	padding-right: 30px;
+	border-right: 4px solid rgb(41, 161, 180);
 }
 .fblock4 {
-  border-left: 2px dotted rgb(41, 161, 180);
+	border-left: 2px dotted rgb(41, 161, 180);
 }
 
 @media screen and (max-width: 450px) {
-  .bannerHeading {
-    font-size: 35px;
-  }
-  .journeyContainer {
-    padding: 10px;
-    height: auto;
-    width: auto;
-    grid-row-gap: 20px;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto;
-  }
-  .journeyImage > img {
-    margin: auto;
-    height: 200px;
-    width: 200px;
-  }
-  .journeyContent {
-    height: 200px;
-    width: 200px;
-  }
-  .journeyHeading {
-    font-size: 20px;
-  }
-  .verticalContainer {
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto;
-    padding: 10px;
-    height: auto;
-    width: auto;
-  }
-  .footerContainer {
-    padding: 10px 10px;
-    margin: 0px;
-  }
-  .footerGrid {
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
-    grid-row-gap: 20px;
-    height: auto;
-    width: auto;
-    padding: 10px;
-  }
-  .footerBlock {
-    text-align: center;
-    border: none;
-    height: auto;
-    width: auto;
-  }
-  .footerBlock > h2 {
-    font-size: 20px;
-  }
+	.bannerHeading {
+		font-size: 35px;
+	}
+	.journeyContainer {
+		padding: 10px;
+		height: auto;
+		width: auto;
+		grid-row-gap: 20px;
+		grid-template-columns: auto;
+		grid-template-rows: auto auto;
+	}
+	.journeyImage > img {
+		margin: auto;
+		height: 200px;
+		width: 200px;
+	}
+	.journeyContent {
+		height: 200px;
+		width: 200px;
+	}
+	.journeyHeading {
+		font-size: 20px;
+	}
+	.verticalContainer {
+		grid-template-columns: auto;
+		grid-template-rows: auto auto auto;
+		padding: 10px;
+		height: auto;
+		width: auto;
+	}
+	.footerContainer {
+		padding: 10px 10px;
+		margin: 0px;
+	}
+	.footerGrid {
+		grid-template-columns: auto;
+		grid-template-rows: auto auto auto auto;
+		grid-row-gap: 20px;
+		height: auto;
+		width: auto;
+		padding: 10px;
+	}
+	.footerBlock {
+		text-align: center;
+		border: none;
+		height: auto;
+		width: auto;
+	}
+	.footerBlock > h2 {
+		font-size: 20px;
+	}
+}
+
+.trademark {
+	text-align: center;
 }
