@@ -6,6 +6,7 @@
 html,
 body {
   background: #0fadad;
+  scroll-behavior: smooth;
   color: black;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
