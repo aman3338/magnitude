@@ -104,6 +104,14 @@
   border-radius: 10px;
   color: cyan;
 }
+.footerBlock > h2 {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+.footerBlock > div {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
 .socialLinks {
   color: cyan;
   text-align: center;
