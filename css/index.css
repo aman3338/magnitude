@@ -159,4 +159,9 @@
     height: auto;
     width: auto;
   }
+  .footerBlock {
+    border: none;
+    height: auto;
+    width: auto;
+  }
 }
