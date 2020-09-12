@@ -26,5 +26,19 @@
       </div>
     </nav>
     <center><h1>welcome to gallery</h1></center>
+    <script src="../js/script.js"></script>
+    <script>
+      function countTouches(event) {
+        let x = 0;
+        x = event.touches.length;
+        if (x == true) {
+          document.querySelector(".links").classList.remove("active");
+          document.querySelector(".lines").classList.remove("toggle");
+          document
+            .querySelectorAll(".link")
+            .forEach((link) => (link.style.animation = ""));
+        }
+      }
+    </script>
   </body>
 </html>
