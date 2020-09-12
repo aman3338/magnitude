@@ -16,6 +16,13 @@
   background-color: rgba(0, 0, 0, 0.6);
   background-blend-mode: color;
 }
+hr {
+  margin: auto;
+  width: 80%;
+  border: none;
+  border-top: 3px double #333;
+}
+
 .bannerHeading {
   font-size: 3em;
   color: rgb(31, 220, 220);
