@@ -167,7 +167,7 @@ hr {
   }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 673px) {
   .bannerHeading {
     font-size: 35px;
   }
